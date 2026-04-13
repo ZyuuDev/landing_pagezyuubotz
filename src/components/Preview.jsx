@@ -81,7 +81,7 @@ export default function Preview({ config }) {
         
         {/* Name and Verified Badge */}
         <h1 
-          className="font-bold flex justify-center items-center gap-1.5 tracking-tight text-white mb-1"
+          className="font-bold flex justify-center items-center gap-1.5 tracking-tight text-white mb-1 text-shadow-sm"
           style={{ fontSize: `${config.nameSize}px` }}
         >
           ZyuuBotz WhatsApp
@@ -89,13 +89,13 @@ export default function Preview({ config }) {
         </h1>
         
         {/* Tagline */}
-        <p className="text-center font-medium text-white mb-2">
+        <p className="text-center font-medium text-white mb-2 text-shadow-sm">
           ⚡ Bot WhatsApp Cerdas & Fast Respon
         </p>
 
         {/* Details / Bio */}
         <div 
-          className="flex flex-wrap justify-center items-center text-white/70 gap-x-2"
+          className="flex flex-wrap justify-center items-center text-white/70 gap-x-2 text-shadow-sm"
           style={{ fontSize: `${config.bioSize}px` }}
         >
           <span>Auto-reply</span>
@@ -119,7 +119,7 @@ export default function Preview({ config }) {
             className="glass relative w-full flex items-center p-3 transition-all duration-300 hover:scale-[1.02] hover:bg-white/10 group"
           >
             {/* Left Thumbnail */}
-            <div className="w-[50px] h-[50px] mr-4 flex-shrink-0 rounded-lg overflow-hidden border border-white/10 shadow-sm relative">
+            <div className="w-[50px] h-[50px] mr-4 shrink-0 rounded-lg overflow-hidden border border-white/10 shadow-sm relative">
                 <img 
                     src={link.iconUrl} 
                     alt={link.title} 
@@ -129,18 +129,18 @@ export default function Preview({ config }) {
             
             {/* Center Text */}
             <div className="flex flex-col flex-1 text-left overflow-hidden">
-              <span className="font-bold text-white tracking-wide text-sm uppercase truncate">
+              <span className="font-bold text-white tracking-wide text-sm uppercase truncate text-shadow-sm">
                 {link.title}
               </span>
               {link.description && (
-                <span className="text-white/60 text-xs mt-0.5 truncate">
+                <span className="text-white/60 text-xs mt-0.5 truncate text-shadow-sm">
                   {link.description}
                 </span>
               )}
             </div>
 
             {/* Right Action Button */}
-            <div className="ml-3 flex-shrink-0 w-8 h-8 rounded-full bg-white/10 border border-white/5 flex items-center justify-center text-white/80 group-hover:bg-white/20 group-hover:text-white transition-colors">
+            <div className="ml-3 shrink-0 w-8 h-8 rounded-full bg-white/10 border border-white/5 flex items-center justify-center text-white/80 group-hover:bg-white/20 group-hover:text-white transition-colors">
                 <ChevronRight size={18} strokeWidth={2.5} />
             </div>
           </a>
@@ -148,7 +148,7 @@ export default function Preview({ config }) {
       </div>
       
       {/* Footer Branding */}
-      <div className="mt-12 opacity-50 flex items-center text-xs pb-8">
+      <div className="mt-12 opacity-50 flex items-center text-xs pb-8 text-shadow-sm">
         <span>Powered by</span>
         <span className="ml-1 font-bold tracking-widest text-[#3b82f6]">ZyuuDev</span>
       </div>
