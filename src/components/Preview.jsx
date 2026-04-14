@@ -50,7 +50,12 @@ export default function Preview({ config }) {
   const buttonStyle = {
     borderRadius: `${config.buttonRadius}px`,
     minHeight: `${config.buttonHeight}px`,
+    backgroundColor: 'rgba(0, 0, 0, 0.45)',
+    border: '1px solid rgba(255, 255, 255, 0.12)',
+    boxShadow: '0 4px 24px rgba(0, 0, 0, 0.4)',
   };
+
+  const textShadow = { textShadow: '0 1px 8px rgba(0,0,0,0.9), 0 2px 4px rgba(0,0,0,0.8)' };
 
   return (
     <div style={containerStyle} className="mx-auto flex flex-col items-center">
@@ -81,22 +86,22 @@ export default function Preview({ config }) {
         
         {/* Name and Verified Badge */}
         <h1 
-          className="font-bold flex justify-center items-center gap-1.5 tracking-tight text-white mb-1 text-shadow-sm"
-          style={{ fontSize: `${config.nameSize}px` }}
+          className="font-bold flex justify-center items-center gap-1.5 tracking-tight text-white mb-1"
+          style={{ fontSize: `${config.nameSize}px`, ...textShadow }}
         >
           ZyuuBotz WhatsApp
           <BadgeCheck className="text-blue-500 fill-white" size={24} />
         </h1>
         
         {/* Tagline */}
-        <p className="text-center font-medium text-white mb-2 text-shadow-sm">
+        <p className="text-center font-medium text-white mb-2" style={textShadow}>
           ⚡ Bot WhatsApp Cerdas & Fast Respon
         </p>
 
         {/* Details / Bio */}
         <div 
-          className="flex flex-wrap justify-center items-center text-white/70 gap-x-2 text-shadow-sm"
-          style={{ fontSize: `${config.bioSize}px` }}
+          className="flex flex-wrap justify-center items-center text-white/70 gap-x-2"
+          style={{ fontSize: `${config.bioSize}px`, ...textShadow }}
         >
           <span>Auto-reply</span>
           <span>&bull;</span>
@@ -116,7 +121,7 @@ export default function Preview({ config }) {
             key={link.id}
             href={link.url}
             style={buttonStyle}
-            className="glass relative w-full flex items-center p-3 transition-all duration-300 hover:scale-[1.02] hover:bg-white/10 group"
+            className="relative w-full flex items-center p-3 transition-all duration-300 hover:scale-[1.02] group"
           >
             {/* Left Thumbnail */}
             <div className="w-[50px] h-[50px] mr-4 shrink-0 rounded-lg overflow-hidden border border-white/10 shadow-sm relative">
@@ -129,11 +134,11 @@ export default function Preview({ config }) {
             
             {/* Center Text */}
             <div className="flex flex-col flex-1 text-left overflow-hidden">
-              <span className="font-bold text-white tracking-wide text-sm uppercase truncate text-shadow-sm">
+              <span className="font-bold text-white tracking-wide text-sm uppercase truncate" style={textShadow}>
                 {link.title}
               </span>
               {link.description && (
-                <span className="text-white/60 text-xs mt-0.5 truncate text-shadow-sm">
+                <span className="text-white/70 text-xs mt-0.5 truncate" style={textShadow}>
                   {link.description}
                 </span>
               )}
@@ -148,7 +153,7 @@ export default function Preview({ config }) {
       </div>
       
       {/* Footer Branding */}
-      <div className="mt-12 opacity-50 flex items-center text-xs pb-8 text-shadow-sm">
+      <div className="mt-12 opacity-50 flex items-center text-xs pb-8" style={textShadow}>
         <span>Powered by</span>
         <span className="ml-1 font-bold tracking-widest text-[#3b82f6]">ZyuuDev</span>
       </div>
