@@ -2,7 +2,6 @@
 
 A sleek, customizable **link-in-bio / linktree-style landing page** built for **ZyuuBotz**, a WhatsApp bot service. Features a live visual customizer, animated glassmorphism UI, and a looping video background — all powered by React + Vite.
 
-![Preview](src/assets/hero.png)
 
 ---
 
