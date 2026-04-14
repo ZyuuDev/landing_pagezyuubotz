@@ -14,7 +14,7 @@ const LINKS = [
     title: 'Group WhatsApp 1',
     description: 'Klik untuk menggunakan dengan free!',
     iconUrl: 'https://i.ibb.co.com/spGDV6yS/image.jpg',
-    url: 'https://chat.whatsapp.com/KgH1zizpZ1nDMAP77wndnt'
+    url: 'https://chat.whatsapp.com/JemTjOh5D4N8mTEsEFm0Hf?mode=gi_t'
   },
   {
     id: 'channel',
