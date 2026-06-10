@@ -145,5 +145,5 @@ This project is private and intended for personal/commercial use by **ZyuuDev**.
 ---
 
 <div align="center">
-  <sub>Powered by <strong>ZyuuDev</strong></sub>
+  <sub>Powered by <strong>Zyuu Developer</strong></sub>
 </div>
