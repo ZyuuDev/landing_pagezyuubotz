@@ -11,12 +11,20 @@ const LINKS = [
     url: 'https://chat.whatsapp.com/JemTjOh5D4N8mTEsEFm0Hf?mode=gi_t'
   },
   {
-    id: 'grup',
+    id: 'group',
     title: 'Group WhatsApp 2',
     description: 'Klik untuk menggunakan dengan free!',
     iconUrl: 'https://i.ibb.co.com/DXd8RV7/download-4.jpg', // Example placeholder URL
     url: 'https://chat.whatsapp.com/EypWtqf9uke8s1z6uynLxD'
   },
+  {
+    id: 'group',
+    title: 'Group WhatsApp 3',
+    description: 'Klik untuk menggunakan dengan free!',
+    iconUrl: 'https://i.ibb.co.com/DXd8RV7/download-4.jpg', // Example placeholder URL
+    url: 'https://chat.whatsapp.com/E3zRaurdyGc2wevlHwslkm'
+  },
+
   {
     id: 'channel',
     title: 'Channel WhatsApp',
