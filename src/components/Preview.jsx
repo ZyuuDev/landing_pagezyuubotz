@@ -15,7 +15,7 @@ const LINKS = [
     title: 'Group WhatsApp 2',
     description: 'Klik untuk menggunakan dengan free!',
     iconUrl: 'https://i.ibb.co.com/DXd8RV7/download-4.jpg', // Example placeholder URL
-    url: 'https://chat.whatsapp.com/EypWtqf9uke8s1z6uynLxD'
+    url: 'https://chat.whatsapp.com/DOPhUBj3joK3L8ezlwRX7R'
   },
   {
     id: 'group',
