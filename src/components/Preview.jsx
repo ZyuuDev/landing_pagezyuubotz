@@ -22,7 +22,7 @@ const LINKS = [
     title: 'Group WhatsApp 3',
     description: 'Klik untuk menggunakan dengan free!',
     iconUrl: 'https://i.ibb.co.com/DXd8RV7/download-4.jpg', // Example placeholder URL
-    url: 'https://chat.whatsapp.com/E3zRaurdyGc2wevlHwslkm'
+    url: 'https://chat.whatsapp.com/D84QBKIUJXm0wx5MFbom7i?s=cl&p=a&mlu=4'
   },
 
   {
